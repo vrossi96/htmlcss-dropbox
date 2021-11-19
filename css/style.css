@@ -42,10 +42,17 @@ img {
   width: 90%;
   margin: 0 auto;
 }
-
+.container-60 {
+  width: 60%;
+  margin: 0 auto;
+}
 .container-70 {
   width: 70%;
   margin: 0 auto;
+}
+
+.relative {
+  position: relative;
 }
 
 .btn {
@@ -62,6 +69,7 @@ img {
   line-height: 80px;
   background-color: white;
   position: fixed;
+  z-index: 2;
 }
 #nav-left,
 #nav-right {
@@ -93,9 +101,43 @@ li {
   background-color: #b4d0e7;
   padding-top: 80px;
 }
+#white-bar {
+  width: 100vw;
+  background-color: white;
+  height: 150px;
+  position: absolute;
+  top: 100%;
+}
 /* *jumbo tile */
 #jumbo-title h1 {
   font-size: 75px;
   font-weight: 800;
   margin-top: 100px;
+}
+/* *jumbo content */
+#jumbo-content {
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+#j-text-box p {
+  padding-bottom: 50px;
+}
+
+#j-text-box #annulla {
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+#j-text-box .arrow-down {
+  color: black;
+}
+#j-text-box .arrow-down i {
+  padding-top: 50px;
+}
+
+/* Main */
+#prices {
+  height: 500px;
+  background-color: yellowgreen;
 }
