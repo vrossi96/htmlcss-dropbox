@@ -100,14 +100,16 @@ li {
 #jumbotron {
   background-color: #b4d0e7;
   padding-top: 80px;
+  position: relative;
 }
 /* !sistemare */
 #white-bar {
-  width: 100vw;
+  width: 100%;
   background-color: white;
-  height: 150px;
+  height: 10%;
   position: absolute;
-  top: 100%;
+  left: 0;
+  bottom: 0;
 }
 /* *jumbo tile */
 #jumbo-title h1 {
@@ -180,8 +182,8 @@ main {
 #prices-table .table {
   width: calc(100% / 3 - 40px);
   border: 1px solid grey;
+  height: 1100px;
   /* !rimuovere */
-  height: 600px;
   background-color: cadetblue;
 }
 #prices-table .table.second {
@@ -192,21 +194,40 @@ main {
   line-height: 2.5rem;
   border-bottom: 1px solid grey;
 }
-.table .price-info-box * {
-  margin: 25px 0;
-}
+/* *Price info box */
 .table .price-info-box {
   width: 80%;
   margin: 20px auto;
 }
-.price-info-box .price {
-  margin-bottom: 15px;
+.price-info-box h3 {
+  margin: 15px 0;
 }
 .price-info-box .price-time {
-  margin-top: 15px;
-  margin-bottom: 30px;
   color: gray;
 }
-.info-user i.far {
-  margin: 0;
+.price-info-box ul {
+  margin: 20px 0;
+}
+.price-info-box li {
+  margin: 15px 0;
+}
+/* *Button 30gg */
+.prova-button {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.prova-button a {
+  padding: 10px 35px;
+}
+.price-info-box span:first-of-type {
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+}
+.price-info-box h3:last-of-type {
+  padding-top: 50px;
+}
+/* *punti salienti del piano */
+.punti-salienti i {
+  color: #0061ff;
 }
