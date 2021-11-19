@@ -101,6 +101,7 @@ li {
   background-color: #b4d0e7;
   padding-top: 80px;
 }
+/* !sistemare */
 #white-bar {
   width: 100vw;
   background-color: white;
@@ -137,7 +138,75 @@ li {
 }
 
 /* Main */
+main {
+  padding-top: 100px;
+}
+
+/* *Prices */
 #prices {
-  height: 500px;
+  /* !rimuovere */
   background-color: yellowgreen;
+}
+#prices > h2 {
+  font-size: 50px;
+}
+
+.fake-radio {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+#scelta-fatturazione {
+  line-height: 20px;
+  margin-top: 50px;
+}
+#scelta-fatturazione .fatturazione {
+  display: inline-block;
+  margin-right: 15px;
+}
+.fake-radio.first {
+  border: 5px solid #0061ff;
+}
+
+/* *prices table */
+#prices-table {
+  width: 100%;
+  margin-top: 30px;
+}
+#prices-table .table {
+  width: calc(100% / 3 - 40px);
+  border: 1px solid grey;
+  /* !rimuovere */
+  height: 600px;
+  background-color: cadetblue;
+}
+#prices-table .table.second {
+  margin: 0 60px;
+}
+#prices-table .n-customer {
+  text-align: center;
+  line-height: 2.5rem;
+  border-bottom: 1px solid grey;
+}
+.table .price-info-box * {
+  margin: 25px 0;
+}
+.table .price-info-box {
+  width: 80%;
+  margin: 20px auto;
+}
+.price-info-box .price {
+  margin-bottom: 15px;
+}
+.price-info-box .price-time {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: gray;
+}
+.info-user i.far {
+  margin: 0;
 }
