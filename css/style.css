@@ -16,8 +16,14 @@ img {
 .w-25 {
   width: 25%;
 }
+.w-30 {
+  width: 30%;
+}
 .w-50 {
   width: 50%;
+}
+.w-70 {
+  width: 70%;
 }
 .w-75 {
   width: 75%;
@@ -59,6 +65,7 @@ img {
   padding: 10px 30px;
 }
 
+/* *Margin utilities */
 .m-tb-15 {
   margin: 15px 0;
 }
@@ -100,6 +107,30 @@ img {
   margin-bottom: 30px;
 }
 
+/* *Padding utilities */
+.p-t-25 {
+  padding-top: 25px;
+}
+.p-t-50 {
+  padding-top: 50px;
+}
+.p-t-80 {
+  padding-top: 80px;
+}
+.p-t-100 {
+  padding-top: 100px;
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
+}
+.p-b-50 {
+  padding-bottom: 50px;
+}
+
+.p-10-35 {
+  padding: 10px 35px;
+}
 /* Header */
 /* *nav */
 #nav {
@@ -132,7 +163,6 @@ li {
 /* *jumbotron */
 #jumbotron {
   background-color: #b4d0e7;
-  padding-top: 80px;
   position: relative;
 }
 /* !sistemare */
@@ -151,29 +181,12 @@ li {
 }
 /* *jumbo content */
 #jumbo-content {
-  padding-top: 80px;
   position: relative;
   z-index: 1;
 }
 
-#j-text-box p {
-  padding-bottom: 50px;
-}
-
-#j-text-box #annulla {
-  padding-top: 25px;
-  padding-bottom: 0;
-}
 #j-text-box .arrow-down {
   color: black;
-}
-#j-text-box .arrow-down i {
-  padding-top: 50px;
-}
-
-/* Main */
-main {
-  padding-top: 100px;
 }
 
 /* *Prices */
@@ -235,15 +248,8 @@ main {
   text-align: center;
   width: 100%;
 }
-.prova-button a {
-  padding: 10px 35px;
-}
 .price-info-box span:first-of-type {
-  padding-bottom: 30px;
   border-bottom: 1px solid grey;
-}
-.price-info-box h3:last-of-type {
-  padding-top: 50px;
 }
 /* *punti salienti del piano */
 .punti-salienti i {
