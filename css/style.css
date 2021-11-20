@@ -58,6 +58,48 @@ img {
   text-decoration: none;
   padding: 10px 30px;
 }
+
+.m-tb-15 {
+  margin: 15px 0;
+}
+.m-tb-20 {
+  margin: 20px 0;
+}
+.m-tb-60 {
+  margin: 60px 0;
+}
+
+.m-rl-15 {
+  margin: 0 15px;
+}
+.m-rl-20 {
+  margin: 0 20px;
+}
+.m-rl-25 {
+  margin: 0 25px;
+}
+.m-rl-60 {
+  margin: 0 60px;
+}
+
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-t-50 {
+  margin-top: 50px;
+}
+.m-t-100 {
+  margin-top: 100px;
+}
+
+.m-t-15 {
+  margin-right: 15px;
+}
+
+.m-b-30 {
+  margin-bottom: 30px;
+}
+
 /* Header */
 /* *nav */
 #nav {
@@ -71,7 +113,6 @@ img {
 #nav-left,
 #nav-right {
   width: calc(50% - 30px);
-  margin: 0 15px;
 }
 #logo {
   vertical-align: middle;
@@ -83,16 +124,11 @@ li {
 #nav li a {
   color: black;
   text-decoration: none;
-  margin: 0 20px;
 }
 /* *nav parte destra */
 #nav-right {
   text-align: right;
 }
-#nav-right > a {
-  margin: 0 25px;
-}
-
 /* *jumbotron */
 #jumbotron {
   background-color: #b4d0e7;
@@ -112,7 +148,6 @@ li {
 #jumbo-title h1 {
   font-size: 75px;
   font-weight: 800;
-  margin-top: 100px;
 }
 /* *jumbo content */
 #jumbo-content {
@@ -161,11 +196,9 @@ main {
 }
 #scelta-fatturazione {
   line-height: 20px;
-  margin-top: 50px;
 }
 #scelta-fatturazione .fatturazione {
   display: inline-block;
-  margin-right: 15px;
 }
 .fake-radio.first {
   border: 5px solid #0061ff;
@@ -174,7 +207,6 @@ main {
 /* *prices table */
 #prices-table {
   width: 100%;
-  margin-top: 30px;
 }
 #prices-table .table {
   width: calc(100% / 3 - 40px);
@@ -182,9 +214,6 @@ main {
   height: 1100px;
   /* todo rimuovere */
   /* background-color: rgba(127, 174, 175, 0.5); */
-}
-#prices-table .table.second {
-  margin: 0 60px;
 }
 /* !anche per uffico vendite */
 .n-customer {
@@ -197,24 +226,14 @@ main {
   width: 80%;
   margin: 20px auto;
 }
-.price-info-box h3 {
-  margin: 15px 0;
-}
 .price-info-box .price-time {
   font-size: 0.9rem;
   color: gray;
-}
-.price-info-box ul {
-  margin: 20px 0;
-}
-.price-info-box li {
-  margin: 15px 0;
 }
 /* *Button 30gg */
 .prova-button {
   text-align: center;
   width: 100%;
-  margin-bottom: 30px;
 }
 .prova-button a {
   padding: 10px 35px;
@@ -232,7 +251,6 @@ main {
 }
 /* *Tab orizzontale */
 main .contatta-ufficio-vendite {
-  margin: 60px 0;
   height: 300px;
   border: 1px solid grey;
 }
