@@ -109,6 +109,9 @@ img {
   margin: 0 60px;
 }
 
+.m-t-25 {
+  margin-top: 25px;
+}
 .m-t-30 {
   margin-top: 30px;
 }
@@ -134,6 +137,12 @@ img {
 }
 .m-b-60 {
   margin-bottom: 60px;
+}
+.m-b-100 {
+  margin-bottom: 100px;
+}
+.m-b-200 {
+  margin-bottom: 200px;
 }
 
 /* *Padding utilities */
@@ -323,4 +332,13 @@ li {
 /* *Tab orizzontale */
 main .contatta-ufficio-vendite {
   border: 1px solid grey;
+}
+
+/* Cards block */
+#cards-block > h2 {
+  font-size: 50px;
+}
+
+#cards-block .card {
+  width: calc(100% / 3 - 50px);
 }
