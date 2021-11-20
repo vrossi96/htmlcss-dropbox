@@ -19,8 +19,14 @@ img {
 .w-30 {
   width: 30%;
 }
+.w-40 {
+  width: 40%;
+}
 .w-50 {
   width: 50%;
+}
+.w-60 {
+  width: 60%;
 }
 .w-70 {
   width: 70%;
@@ -67,6 +73,13 @@ img {
   text-decoration: none;
   padding: 10px 30px;
 }
+.btn-white-bg {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid black;
+}
 
 .text-align-cntr {
   text-align: center;
@@ -102,8 +115,14 @@ img {
 .m-t-50 {
   margin-top: 50px;
 }
+.m-t-60 {
+  margin-top: 60px;
+}
 .m-t-100 {
   margin-top: 100px;
+}
+.m-t-200 {
+  margin-top: 200px;
 }
 
 .m-r-15 {
@@ -112,6 +131,9 @@ img {
 
 .m-b-30 {
   margin-bottom: 30px;
+}
+.m-b-60 {
+  margin-bottom: 60px;
 }
 
 /* *Padding utilities */
@@ -157,11 +179,15 @@ img {
   padding-top: 100px;
 }
 
-.p- .p-b-30 {
+.p-b-30 {
   padding-bottom: 30px;
 }
 .p-b-50 {
   padding-bottom: 50px;
+}
+
+.p-l-50 {
+  padding-left: 50px;
 }
 
 .p-10-35 {
