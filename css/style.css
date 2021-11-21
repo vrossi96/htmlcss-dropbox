@@ -215,3 +215,17 @@ main .contatta-ufficio-vendite {
 .clients-text p {
   padding-top: 50px;
 }
+
+.box-clienti-underbox {
+  background-color: #b4d0e7;
+  height: 400px;
+}
+.box-clienti-underbox .left-box {
+  color: #61082b;
+}
+.box-clienti-underbox .right-box {
+  text-align: right;
+}
+.box-clienti-underbox .btn-white-bg {
+  border: none;
+}
