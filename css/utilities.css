@@ -108,6 +108,15 @@ li {
   transform: translate(-50%, -50%);
 }
 
+.fullwidth-btn {
+  width: 100%;
+  /* margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0; */
+  display: block;
+  text-align: center;
+}
 .btn {
   color: white;
   background-color: #0061ff;

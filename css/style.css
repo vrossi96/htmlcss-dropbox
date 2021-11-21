@@ -97,7 +97,7 @@
 #prices-table .table {
   width: calc(100% / 3 - 40px);
   border: 1px solid grey;
-  height: 1100px;
+  min-height: 1100px;
   /* todo rimuovere */
   /* background-color: rgba(127, 174, 175, 0.5); */
 }
