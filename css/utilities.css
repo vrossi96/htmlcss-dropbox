@@ -106,7 +106,12 @@ img {
   background-color: #0061ff;
   text-decoration: none;
   padding: 10px 30px;
+  transition: 0.3s;
 }
+.btn:hover {
+  filter: opacity(75%);
+}
+
 .btn-white-bg {
   color: black;
   background-color: white;

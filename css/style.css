@@ -23,6 +23,14 @@ li {
   color: black;
   text-decoration: none;
 }
+#nav li {
+  border-bottom: 2px solid white;
+}
+
+#nav li:hover {
+  border-bottom: 2px solid grey;
+}
+
 /* *nav parte destra */
 #nav-right {
   text-align: right;
@@ -32,7 +40,6 @@ li {
   background-color: #b4d0e7;
   position: relative;
 }
-/* !sistemare */
 #white-bar {
   width: 100%;
   background-color: white;
@@ -177,6 +184,15 @@ main .contatta-ufficio-vendite {
 }
 #clear-channel-logo {
   background-color: #ffd830;
+}
+
+.client-logo {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.row .client-logo:hover {
+  filter: opacity(0.9);
+  border: 15px solid rgba(60, 60, 60, 0.3);
 }
 
 /* *Clients text */
