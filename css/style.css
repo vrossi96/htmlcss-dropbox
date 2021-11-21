@@ -123,12 +123,21 @@
   text-align: center;
   width: 100%;
 }
-.price-info-box span:first-of-type {
+.price-info-box > span:first-of-type {
   border-bottom: 1px solid grey;
 }
 /* *punti salienti del piano */
+.punti-salienti li {
+  width: 100%;
+}
 .punti-salienti i {
+  position: relative;
+  top: 2px;
+  width: 8%;
   color: #0061ff;
+}
+.punti-salienti p {
+  width: 92%;
 }
 /* .punti-salienti ul {
   list-style-image: url(../img/list-icon/check-solid.svg);
