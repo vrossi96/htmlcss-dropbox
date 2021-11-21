@@ -72,6 +72,8 @@
 }
 
 .fake-radio {
+  position: relative;
+  top: 4px;
   width: 20px;
   height: 20px;
   background-color: white;
