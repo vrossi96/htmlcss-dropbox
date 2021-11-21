@@ -15,8 +15,7 @@
 #logo {
   vertical-align: middle;
 }
-#nav ul,
-li {
+#nav ul {
   display: inline-block;
 }
 #nav li a {
@@ -218,14 +217,57 @@ main .contatta-ufficio-vendite {
 
 .box-clienti-underbox {
   background-color: #b4d0e7;
-  height: 400px;
+  height: 350px;
 }
 .box-clienti-underbox .left-box {
   color: #61082b;
 }
 .box-clienti-underbox .right-box {
+  top: 20px;
+  right: 0;
   text-align: right;
 }
 .box-clienti-underbox .btn-white-bg {
   border: none;
+}
+
+/* FAQ */
+#faq-box .faq {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.faq span {
+  font-weight: 800;
+}
+.faq i {
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  color: white;
+  background-color: black;
+}
+footer p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+footer li {
+  display: block;
+  padding: 5px 0;
+}
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer span {
+  display: inline-block;
+  padding: 50px 0;
+  color: grey;
+  border-top: 1px solid grey;
+}
+footer span .fa-caret-up {
+  cursor: pointer;
 }
