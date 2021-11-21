@@ -1,216 +1,9 @@
-/* generics */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-}
-img {
-  max-width: 100%;
-}
-
-/* utilities */
-.w-25 {
-  width: 25%;
-}
-.w-30 {
-  width: 30%;
-}
-.w-40 {
-  width: 40%;
-}
-.w-50 {
-  width: 50%;
-}
-.w-60 {
-  width: 60%;
-}
-.w-70 {
-  width: 70%;
-}
-.w-75 {
-  width: 75%;
-}
-.w-100 {
-  width: 100%;
-}
-
-.clearfix {
-  clear: both;
-  content: "";
-  display: table;
-}
-.f-left {
-  float: left;
-}
-.f-right {
-  float: right;
-}
-
-.container-90 {
-  width: 90%;
-  margin: 0 auto;
-}
-.container-60 {
-  width: 60%;
-  margin: 0 auto;
-}
-.container-70 {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.relative {
-  position: relative;
-}
-
-.btn {
-  color: white;
-  background-color: #0061ff;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-.btn-white-bg {
-  color: black;
-  background-color: white;
-  text-decoration: none;
-  padding: 10px 30px;
-  border: 1px solid black;
-}
-
-.text-align-cntr {
-  text-align: center;
-}
-
-/* *Margin utilities */
-.m-tb-15 {
-  margin: 15px 0;
-}
-.m-tb-20 {
-  margin: 20px 0;
-}
-.m-tb-60 {
-  margin: 60px 0;
-}
-
-.m-rl-15 {
-  margin: 0 15px;
-}
-.m-rl-20 {
-  margin: 0 20px;
-}
-.m-rl-25 {
-  margin: 0 25px;
-}
-.m-rl-60 {
-  margin: 0 60px;
-}
-
-.m-t-25 {
-  margin-top: 25px;
-}
-.m-t-30 {
-  margin-top: 30px;
-}
-.m-t-50 {
-  margin-top: 50px;
-}
-.m-t-60 {
-  margin-top: 60px;
-}
-.m-t-100 {
-  margin-top: 100px;
-}
-.m-t-200 {
-  margin-top: 200px;
-}
-
-.m-r-15 {
-  margin-right: 15px;
-}
-
-.m-b-30 {
-  margin-bottom: 30px;
-}
-.m-b-60 {
-  margin-bottom: 60px;
-}
-.m-b-100 {
-  margin-bottom: 100px;
-}
-.m-b-200 {
-  margin-bottom: 200px;
-}
-
-/* *Padding utilities */
-.p-20 {
-  padding: 20px;
-}
-.p-tb-15 {
-  padding: 15px 0;
-}
-.p-tb-20 {
-  padding: 20px 0;
-}
-.p-tb-60 {
-  padding: 60px 0;
-}
-
-.p-rl-15 {
-  padding: 0 15px;
-}
-.p-rl-20 {
-  padding: 0 20px;
-}
-.p-rl-25 {
-  padding: 0 25px;
-}
-.p-rl-35 {
-  padding: 0 35px;
-}
-.p-rl-60 {
-  padding: 0 60px;
-}
-
-.p-t-25 {
-  padding-top: 25px;
-}
-.p-t-50 {
-  padding-top: 50px;
-}
-.p-t-80 {
-  padding-top: 80px;
-}
-.p-t-100 {
-  padding-top: 100px;
-}
-
-.p-b-30 {
-  padding-bottom: 30px;
-}
-.p-b-50 {
-  padding-bottom: 50px;
-}
-
-.p-l-50 {
-  padding-left: 50px;
-}
-
-.p-10-35 {
-  padding: 10px 35px;
-}
-.p-30-20 {
-  padding: 30px 20px;
-}
 /* Header */
 /* *nav */
 #nav {
   width: 100%;
-  height: 80px;
-  line-height: 80px;
+  height: 60px;
+  line-height: 60px;
   background-color: white;
   position: fixed;
   z-index: 2;
@@ -329,6 +122,9 @@ li {
 .punti-salienti i {
   color: #0061ff;
 }
+/* .punti-salienti ul {
+  list-style-image: url(../img/list-icon/check-solid.svg);
+} */
 /* *Tab orizzontale */
 main .contatta-ufficio-vendite {
   border: 1px solid grey;
@@ -341,4 +137,65 @@ main .contatta-ufficio-vendite {
 
 #cards-block .card {
   width: calc(100% / 3 - 50px);
+}
+
+/* Clients block */
+.box-clienti {
+  width: 100%;
+  height: 500px;
+  background-color: #f5f5f5;
+}
+.box-clienti .clients-logos {
+  height: 100%;
+}
+
+.client-logo img {
+  filter: invert(1);
+  width: 50%;
+}
+
+#designit-logo {
+  background-color: #a2d39b;
+}
+#asu-logo {
+  background-color: #61082b;
+}
+#uf-logo {
+  background-color: #0093ce;
+}
+#topps-logo {
+  background-color: #ff1c1c;
+}
+#world-bicycle-logo {
+  background-color: #d5001f;
+}
+#heart-corp-logo {
+  background-color: #b4d0e7;
+}
+#lonely-pl-logo {
+  background-color: #0d2481;
+}
+#clear-channel-logo {
+  background-color: #ffd830;
+}
+
+/* *Clients text */
+.clients-text {
+  position: relative;
+  height: 100%;
+}
+.clients-text img {
+  width: 150px;
+  padding-bottom: 80px;
+}
+
+.clients-text::before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 75px;
+  border-bottom: 1px solid lightgray;
+}
+.clients-text p {
+  padding-top: 50px;
 }
