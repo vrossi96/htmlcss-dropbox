@@ -40,7 +40,13 @@
   visibility: visible;
   opacity: 1;
 }
-
+.with-sub-menu i {
+  transition: 0.5s;
+}
+.with-sub-menu:hover i {
+  transition: 0.5s;
+  transform: rotateZ(180deg);
+}
 .sub-menu {
   line-height: 1rem;
   text-align: center;
