@@ -37,6 +37,11 @@
   color: white;
 }
 
+/* *Nav menu a tendina */
+#nav-right li ul {
+  list-style-type: none;
+  display: none;
+}
 /* *nav parte destra */
 #nav-right {
   text-align: right;
@@ -147,7 +152,7 @@
   filter: invert(1);
   font-size: 2rem;
 }
-.punti-salienti ul {
+.punti-salienti li {
   list-style-image: url(../img/icon-list/check-solid.svg);
 }
 
