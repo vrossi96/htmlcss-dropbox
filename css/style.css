@@ -154,7 +154,7 @@ main .contatta-ufficio-vendite {
 }
 
 #cards-block .card {
-  width: calc(100% / 3 - 50px);
+  width: calc(100% / 3 - 40px);
 }
 
 /* Clients block */
