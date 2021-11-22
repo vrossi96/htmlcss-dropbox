@@ -12,10 +12,6 @@ img {
   max-width: 100%;
 }
 
-li {
-  display: inline-block;
-}
-
 /* utilities */
 .w-20 {
   width: 20%;
@@ -125,7 +121,7 @@ li {
   transition: 0.3s;
 }
 .btn:hover {
-  filter: opacity(75%);
+  filter: brightness(1.3);
 }
 
 .btn-white-bg {

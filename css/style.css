@@ -6,11 +6,10 @@
   line-height: 60px;
   background-color: white;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 2;
-}
-#nav-left,
-#nav-right {
-  width: calc(50% - 30px);
+  box-shadow: 0px 5px 5px rgba(211, 211, 211, 0.6);
 }
 #logo {
   vertical-align: middle;
@@ -18,12 +17,17 @@
 #nav ul {
   display: inline-block;
 }
+#nav li {
+  display: inline-block;
+  list-style: none;
+  border-bottom: 2px solid white;
+}
 #nav li a {
   color: black;
   text-decoration: none;
 }
-#nav li {
-  border-bottom: 2px solid white;
+#nav li a.btn {
+  color: white;
 }
 
 #nav li:hover {
@@ -63,10 +67,6 @@
 }
 
 /* *Prices */
-#prices {
-  /* todo rimuovere */
-  /* background-color: rgba(157, 187, 98, 0.5); */
-}
 #prices > h2 {
   font-size: 50px;
 }
@@ -100,8 +100,9 @@
   width: calc(100% / 3 - 40px);
   border: 1px solid grey;
   min-height: 1100px;
-  /* todo rimuovere */
-  /* background-color: rgba(127, 174, 175, 0.5); */
+}
+#prices-table li {
+  display: inline-block;
 }
 /* !anche per uffico vendite */
 .n-customer {
