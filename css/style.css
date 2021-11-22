@@ -20,18 +20,21 @@
 #nav li {
   display: inline-block;
   list-style: none;
-  border-bottom: 2px solid white;
 }
-#nav li a {
+#nav li > a:not(.btn) {
+  display: inline-block;
   color: black;
   text-decoration: none;
+  margin: 0 20px;
+  border-bottom: 2px solid white;
 }
-#nav li a.btn {
-  color: white;
+#nav li > a:not(.btn):hover {
+  border-bottom: 2px solid grey;
 }
 
-#nav li:hover {
-  border-bottom: 2px solid grey;
+#nav li a.btn {
+  display: inline;
+  color: white;
 }
 
 /* *nav parte destra */
@@ -101,10 +104,7 @@
   border: 1px solid grey;
   min-height: 1100px;
 }
-/* #prices-table li {
-  display: inline-block;
-} */
-/* !anche per uffico vendite */
+
 .n-customer {
   text-align: center;
   line-height: 2.5rem;
@@ -144,7 +144,7 @@
 }
 /* *punti salienti del piano icons */
 .punti-salienti li::marker {
-  color: #0061ff;
+  filter: invert(1);
   font-size: 2rem;
 }
 .punti-salienti ul {
