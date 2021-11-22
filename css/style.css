@@ -110,7 +110,21 @@
 }
 
 #j-text-box .arrow-down {
+  position: relative;
   color: black;
+  animation: bouncing 1s infinite;
+}
+
+@keyframes bouncing {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 15px;
+  }
+  100% {
+    top: 0;
+  }
 }
 
 /* *Prices */
