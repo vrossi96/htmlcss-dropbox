@@ -101,9 +101,9 @@
   border: 1px solid grey;
   min-height: 1100px;
 }
-#prices-table li {
+/* #prices-table li {
   display: inline-block;
-}
+} */
 /* !anche per uffico vendite */
 .n-customer {
   text-align: center;
@@ -119,6 +119,38 @@
   font-size: 0.9rem;
   color: gray;
 }
+
+/* *Icons lists */
+.price-info-box ul {
+  padding-left: 20px;
+}
+.list-three-icons li::marker {
+  font-size: 2rem;
+}
+.list-three-icons .user-icon {
+  list-style-image: url(../img/icon-list/user-regular.svg);
+}
+.list-three-icons .folder-icon {
+  list-style-image: url(../img/icon-list/folder-regular.svg);
+}
+.list-three-icons .pencil-icon {
+  list-style-image: url(../img/icon-list/pencil-alt-solid.svg);
+}
+.list-three-icons .user-plus-icon {
+  list-style-image: url(../img/icon-list/user-plus-solid.svg);
+}
+.list-three-icons .smile-icon {
+  list-style-image: url(../img/icon-list/smile-regular.svg);
+}
+/* *punti salienti del piano icons */
+.punti-salienti li::marker {
+  color: #0061ff;
+  font-size: 2rem;
+}
+.punti-salienti ul {
+  list-style-image: url(../img/icon-list/check-solid.svg);
+}
+
 /* *Button 30gg */
 .prova-button {
   text-align: center;
@@ -126,19 +158,6 @@
 }
 .price-info-box > span:first-of-type {
   border-bottom: 1px solid grey;
-}
-/* *punti salienti del piano */
-.punti-salienti li {
-  width: 100%;
-}
-.punti-salienti i {
-  position: relative;
-  top: 2px;
-  width: 8%;
-  color: #0061ff;
-}
-.punti-salienti p {
-  width: 92%;
 }
 /* .punti-salienti ul {
   list-style-image: url(../img/list-icon/check-solid.svg);
