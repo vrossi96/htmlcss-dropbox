@@ -306,17 +306,39 @@ main .contatta-ufficio-vendite {
 }
 
 /* FAQ */
-#faq-box .faq {
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-}
-.faq span {
-  font-weight: 800;
-}
-.faq i {
+.faq-dropdown {
   cursor: pointer;
+  padding: 30px 0;
+  border: 1px solid grey;
+  border-right: none;
+  border-left: none;
+  transition: 0.5s;
+}
+.faq-dropdown .f-right {
+  text-align: right;
+}
+.faq-dropdown i {
+  transition: 0.5s;
 }
 
+.menu-drop {
+  font-weight: 500;
+  color: grey;
+  position: absolute;
+  visibility: hidden;
+  padding-top: 50px;
+  top: 0;
+  opacity: 0;
+}
+.faq-dropdown:hover i {
+  transform: rotateZ(180deg);
+}
+.faq-dropdown:hover .menu-drop {
+  transition: 0.5s;
+  position: relative;
+  visibility: visible;
+  opacity: 1;
+}
 /* Footer */
 footer {
   color: white;
