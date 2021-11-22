@@ -105,6 +105,10 @@ img {
   text-decoration: none;
   padding: 10px 30px;
   border: 1px solid black;
+  transition: 0.3s;
+}
+.btn-white-bg:hover {
+  box-shadow: inset 0 0 0 2px rgba(60, 60, 60, 0.3);
 }
 
 .text-align-cntr {
