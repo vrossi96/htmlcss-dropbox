@@ -242,9 +242,6 @@
 .price-info-box > span:first-of-type {
   border-bottom: 1px solid grey;
 }
-/* .punti-salienti ul {
-  list-style-image: url(../img/list-icon/check-solid.svg);
-} */
 /* *Tab orizzontale */
 main .contatta-ufficio-vendite {
   border: 1px solid grey;
@@ -357,9 +354,6 @@ main .contatta-ufficio-vendite {
 .faq-dropdown .f-right {
   text-align: right;
 }
-.faq-dropdown i {
-  transition: 0.5s;
-}
 
 .menu-drop {
   font-weight: 500;
@@ -369,6 +363,9 @@ main .contatta-ufficio-vendite {
   padding-top: 50px;
   top: 0;
   opacity: 0;
+}
+.faq-dropdown i {
+  transition: 0.5s;
 }
 .faq-dropdown:hover i {
   transform: rotateZ(180deg);
